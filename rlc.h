@@ -35,10 +35,12 @@ void circuitoRLC(
  *   Cria o arquivo .DAT para ser lido pelo script de plotagem.
  * O arquivo deve se chamar 'rlc.dat' e seguir o padrão do gnuplot
  * com duas colunas de valores separadas por <TAB> \t
+ * Tempos       Coulumbs     
  * Exemplo:
- * y1   x1
- * y2   x2
- * y3   x3
+ *
+ * x1   y1
+ * x2   y2
+ * x3   y3
  *  ....
  * 
  * PARÂMETROS DE ENTRADA
