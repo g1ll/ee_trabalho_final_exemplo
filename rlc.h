@@ -16,7 +16,7 @@
  * 
  * PARÂMETROS DE ENTRADA/SAÍDA
  * *T    Ponteiro para vetor de tempos (s)
- * *Qa   Ponteiro para Carga no Capacitor (Columbs)
+ * *Qa   Ponteiro para vetor de Carga no Capacitor (Columbs)
  * 
  * */
 void circuitoRLC(       
