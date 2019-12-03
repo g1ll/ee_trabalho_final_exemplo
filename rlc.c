@@ -8,7 +8,7 @@ void circuitoRLC(double V, double R, double L, double C,
 	//n = quantidade de iterações
     int n = (Tf-Ti+h)/h;//Discretização no Tempo
 
-    //L?² +2R? +1/C=0
+    //Lx² +2Rx +1/C=0
     //D = R² - 4L/C
 
     d = R*R-4*L*1/C;//Calculando o discriminante
