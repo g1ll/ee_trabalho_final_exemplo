@@ -1,20 +1,20 @@
 
 /**
  *    Resolve o Circuito Ressonante (RLC) Subamortecido e quarda
- * a soluÃ§Ã£o no parÃ¢metro de E/S Qa. Qa deve ser
- * um ponteiro para uma Ã¡rea de merÃ³ria alocada de 
- * acordo com a discretizaÃ§Ã£o do Tempo(Ti,h e Tf)
+ * a solução no parâmetro de E/S Qa. Qa deve ser
+ * um ponteiro para uma área de merória alocada de 
+ * acordo com a discretização do Tempo(Ti,h e Tf)
  * 
- * PARÃ‚METROS DE ENTRADA
- * V     TensÃ£o (V)
- * R     ResistÃªncia (Ohm)
- * L     IndutÃ¢ncia (Henry)
- * C     CapacitÃ¢ncia (Farad)
+ * PARÂMETROS DE ENTRADA
+ * V     Tensão (V)
+ * R     Resistência (Ohm)
+ * L     Indutância (Henry)
+ * C     Capacitância (Farad)
  * Ti    Tempo inicial (s)
  * h     Passo de tempo (s)
  * Tf    Tempo final (s)
  * 
- * PARÃ‚METROS DE ENTRADA/SAÃDA
+ * PARÂMETROS DE ENTRADA/SAÍDA
  * *T    Ponteiro para vetor de tempos (s)
  * *Qa   Ponteiro para Carga no Capacitor (Columbs)
  * 
@@ -33,7 +33,7 @@ void circuitoRLC(
 
 /**
  *   Cria o arquivo .DAT para ser lido pelo script de plotagem.
- * O arquivo deve se chamar 'rlc.dat' e seguir o padrÃ£o do gnuplot
+ * O arquivo deve se chamar 'rlc.dat' e seguir o padrão do gnuplot
  * com duas colunas de valores separadas por <TAB> \t
  * Exemplo:
  * y1   x1
@@ -41,7 +41,7 @@ void circuitoRLC(
  * y3   x3
  *  ....
  * 
- * PARÃ‚METROS DE ENTRADA
+ * PARÂMETROS DE ENTRADA
  * *dataQ    Ponteiro para dados da carga (Qa)
  * *dataT    Ponteiro para dados dos passos de tempo(s)
  *  size     Quantidade de dados de acordo com o passo de tempo
