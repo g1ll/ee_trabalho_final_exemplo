@@ -35,7 +35,7 @@ _gnuplot_rlc.gnu_
    * \*T    Ponteiro para vetor de tempos (s)
    * \*Qa   Ponteiro para vetor de Carga no Capacitor (Columbs)
   
- ```
+ ```c
 void circuitoRLC(       
         double V,
         double R,
@@ -68,7 +68,7 @@ void circuitoRLC(
    * \*T    Ponteiro para dados dos passos de tempo(s)
    * size     Quantidade de dados de acordo com o passo de tempo
   
- ```
+ ```c
 void createRLCDatFile(double *Qa,double *T,int size);
 ```
 ## createRLCLogFile
@@ -76,7 +76,7 @@ void createRLCDatFile(double *Qa,double *T,int size);
  Criar o arquivo de Log com dos dados (*dataQ, *dataT)
  e os parametros de entrada do circuito RLC (V, R, L, C, Ti, h, Tf)
   
-```
+```c
 void createRLCLogFile(double V, double R, double L, double C,
                 double Ti,double h, double Tf,
                 double *Qa,double *T,int size);
