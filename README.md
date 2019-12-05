@@ -36,7 +36,7 @@ void circuitoRLC(
 ```
 ## createRLCDatFile 
 
-    Cria o arquivo .DAT para ser lido pelo script de plotagem.
+  Cria o arquivo .DAT para ser lido pelo script de plotagem.
   O arquivo deve se chamar 'rlc.dat' e seguir o padrão do gnuplot
   com duas colunas de valores separadas por <TAB> \t
   Tempos       Coulumbs     
@@ -53,7 +53,9 @@ void circuitoRLC(
  * PARÂMETROS DE ENTRADA
  
   \*Qa    Ponteiro para dados da carga (Qa)
+  
   \*T    Ponteiro para dados dos passos de tempo(s)
+   
    size     Quantidade de dados de acordo com o passo de tempo
   
  ```
