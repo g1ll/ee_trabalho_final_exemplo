@@ -6,7 +6,7 @@ Exemplo de Projeto no DevCpp para o Programa do Circuito Ressonante RLC Série (
 Imagem gerada pelo script do gnuPlot (*gnuplot_rlg.gnu*) a partir dos dados do *rlc.dat*
 
 _gnuplot_rlc.gnu_
-```c
+```gnuplot
    script to plot rlc
    set terminal pngcairo size 1024,720 enhanced font 'Verdana,12'
    set output "./plot_rlc.png"
@@ -31,9 +31,9 @@ _gnuplot_rlc.gnu_
    * h     Passo de tempo (s)
    * Tf    Tempo final (s)
   
-  PARÂMETROS DE ENTRADA/SAÍDA
-  *T    Ponteiro para vetor de tempos (s)
-  *Qa   Ponteiro para vetor de Carga no Capacitor (Columbs)
+ * PARÂMETROS DE ENTRADA/SAÍDA
+   * \*T    Ponteiro para vetor de tempos (s)
+   * \*Qa   Ponteiro para vetor de Carga no Capacitor (Columbs)
   
  ```
 void circuitoRLC(       
@@ -64,12 +64,9 @@ void circuitoRLC(
   ....
   
  * PARÂMETROS DE ENTRADA
- 
-  \*Qa    Ponteiro para dados da carga (Qa)
-  
-  \*T    Ponteiro para dados dos passos de tempo(s)
-   
-   size     Quantidade de dados de acordo com o passo de tempo
+   * \*Qa    Ponteiro para dados da carga (Qa)
+   * \*T    Ponteiro para dados dos passos de tempo(s)
+   * size     Quantidade de dados de acordo com o passo de tempo
   
  ```
 void createRLCDatFile(double *Qa,double *T,int size);
