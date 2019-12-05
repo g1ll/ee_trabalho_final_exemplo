@@ -6,7 +6,7 @@ Exemplo de Projeto no DevCpp para o Programa do Circuito Ressonante RLC Série (
 Imagem gerada pelo script do gnuPlot (*gnuplot_rlg.gnu*) a partir dos dados do *rlc.dat*
 
 _gnuplot_rlc.gnu_
-```
+```c
    script to plot rlc
    set terminal pngcairo size 1024,720 enhanced font 'Verdana,12'
    set output "./plot_rlc.png"
