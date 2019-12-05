@@ -3,6 +3,19 @@ Exemplo de Projeto no DevCpp para o Programa do Circuito Ressonante RLC Série (
 
 ![Exemplo](https://github.com/g1ll/ee_trabalho_final_exemplo/raw/master/plot_rlc.png)
 
+Imagem gerada pelo script do gnuPlot (*gnuplot_rlg.gnu*) a partir dos dados do *rlc.dat*
+
+_gnuplot_rlc.gnu_
+```
+   script to plot rlc
+   set terminal pngcairo size 1024,720 enhanced font 'Verdana,12'
+   set output "./plot_rlc.png"
+   set title "SOLUÇÃO SISTEMA RLC"
+   set xlabel 'Tempo(s)'
+   set ylabel 'Coulomb (C)'
+   plot 'rlc.dat' using 1:2 with linespoint title "Carga no Capacitor"
+```
+
 ## circuitoRLC 
    Resolve o Circuito Ressonante (RLC) Subamortecido e quarda
   a solução no parâmetro de E/S Qa. Qa deve ser
