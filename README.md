@@ -3,7 +3,7 @@ Exemplo de Projeto no DevCpp para o Programa do Circuito Ressonante RLC Série (
 
 ![Exemplo](https://github.com/g1ll/ee_trabalho_final_exemplo/raw/master/plot_rlc.png)
 
-##=====circuitoRLC=======
+## circuitoRLC 
    Resolve o Circuito Ressonante (RLC) Subamortecido e quarda
   a solução no parâmetro de E/S Qa. Qa deve ser
   um ponteiro para uma área de merória alocada de 
@@ -34,7 +34,7 @@ void circuitoRLC(
         double *T,
         double *Qa);
 ```
-##createRLCDatFile 
+## createRLCDatFile 
 
     Cria o arquivo .DAT para ser lido pelo script de plotagem.
   O arquivo deve se chamar 'rlc.dat' e seguir o padrão do gnuplot
@@ -43,9 +43,12 @@ void circuitoRLC(
   Exemplo:
  
   x1   y1
+  
   x2   y2
+  
   x3   y3
-   ....
+  
+  ....
   
  * PARÂMETROS DE ENTRADA
  
@@ -56,7 +59,7 @@ void circuitoRLC(
  ```
 void createRLCDatFile(double *Qa,double *T,int size);
 ```
-##createRLCLogFile
+## createRLCLogFile
 
  Criar o arquivo de Log com dos dados (*dataQ, *dataT)
  e os parametros de entrada do circuito RLC (V, R, L, C, Ti, h, Tf)
