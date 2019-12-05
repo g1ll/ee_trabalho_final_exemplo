@@ -10,13 +10,13 @@ Exemplo de Projeto no DevCpp para o Programa do Circuito Ressonante RLC Série (
   acordo com a discretização do Tempo(Ti,h e Tf)
   
  * PARÂMETROS DE ENTRADA
-  V     Tensão (V)
-  R     Resistência (Ohm)
-  L     Indutância (Henry)
-  C     Capacitância (Farad)
-  Ti    Tempo inicial (s)
-  h     Passo de tempo (s)
-  Tf    Tempo final (s)
+  ** V     Tensão (V)
+  ** R     Resistência (Ohm)
+  ** L     Indutância (Henry)
+  ** C     Capacitância (Farad)
+  ** Ti    Tempo inicial (s)
+  ** h     Passo de tempo (s)
+  ** Tf    Tempo final (s)
   
   PARÂMETROS DE ENTRADA/SAÍDA
   *T    Ponteiro para vetor de tempos (s)
