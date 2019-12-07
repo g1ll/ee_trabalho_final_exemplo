@@ -3,7 +3,7 @@ Exemplo de Projeto no DevCpp para o Programa do Circuito Ressonante RLC Série (
 
 ![Exemplo](https://github.com/g1ll/ee_trabalho_final_exemplo/raw/master/plot_rlc.png)
 
-Imagem gerada pelo script do gnuPlot (*gnuplot_rlg.gnu*) a partir dos dados do *rlc.dat*
+Imagem gerada pelo script do gnuPlot (*gnuplot_rlg.gnu*) a partir dos dados do *rlc.dat* criados pela função circuitoRLC para  os seguintes parâmetros : V = 12, R = 10³, L = 1, C = 10⁻⁶,Ti = 0, h = 10⁻⁴, Tf = 0.01 
 
 _gnuplot_rlc.gnu_
 ```gnuplot
