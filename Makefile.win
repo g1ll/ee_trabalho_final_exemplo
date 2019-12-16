@@ -10,8 +10,8 @@ LIBS     = -L"E:/Windows/Instalados/Dev-Cpp/MinGW64/lib" -L"E:/Windows/Instalado
 INCS     = -I"E:/Windows/Instalados/Dev-Cpp/MinGW64/include" -I"E:/Windows/Instalados/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"E:/Windows/Instalados/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"E:/Windows/Instalados/Dev-Cpp/MinGW64/include" -I"E:/Windows/Instalados/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"E:/Windows/Instalados/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"E:/Windows/Instalados/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
 BIN      = ee_trab.exe
-CXXFLAGS = $(CXXINCS) -g3
-CFLAGS   = $(INCS) -g3
+CXXFLAGS = $(CXXINCS) -std=gnu99 -g3
+CFLAGS   = $(INCS) -std=gnu99 -g3
 RM       = rm.exe -f
 
 .PHONY: all all-before all-after clean clean-custom
