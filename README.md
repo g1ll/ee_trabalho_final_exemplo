@@ -19,7 +19,7 @@ _gnuplot_rlc.gnu_
 ## circuitoRLC 
    Resolve o Circuito Ressonante (RLC) Subamortecido e quarda
   a solução no parâmetro de E/S Qa. Qa deve ser
-  um ponteiro para uma área de merória alocada de 
+  um ponteiro para uma área de memória alocada de 
   acordo com a discretização do Tempo(Ti,h e Tf)
   
  * PARÂMETROS DE ENTRADA
